@@ -18,7 +18,9 @@ export default function Home() {
                     Enter a message, sign it, and check the result.
                 </p>
                 <p className="mt-4">
-                    The code for this demo is available on GitHub!
+                    The code for this demo is available on <a
+                    href="https://github.com/SpiralOutDotEu/metamask-signature-verification" target="_blank"
+                    rel="noopener noreferrer" className="text-blue-400 underline">GitHub!</a>
                 </p>
             </div>
 

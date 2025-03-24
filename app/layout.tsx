@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://yourwebsite.com"), // Replace with your actual domain
+    metadataBase: new URL("https://metamask-signature-verification.vercel.app/"), 
     title: "MetaMask Signature Verification Demo",
     description:
         "A demo showing how to sign and verify messages using MetaMask and Ethereum's personal sign method. Includes secure cryptographic verification in a Next.js app.",
@@ -26,13 +26,12 @@ export const metadata: Metadata = {
         "Blockchain",
         "Next.js",
     ],
-    authors: [{ name: "Your Name or Team" }],
     openGraph: {
         title: "MetaMask Signature Verification Demo",
         description:
             "Learn how to sign and verify Ethereum messages securely using MetaMask in a Next.js application. Ideal for Web3 developers.",
         images: ["/meta_site.png"],
-        url: "https://yourwebsite.com",
+        url: "https://metamask-signature-verification.vercel.app/",
         type: "website",
     },
     twitter: {
